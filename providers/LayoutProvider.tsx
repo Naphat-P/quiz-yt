@@ -48,7 +48,7 @@ export default function LayoutProvider({
     }, [])
 
     return (
-        <div className="min-h-screen bg-secondary">
+        <div className="min-h-screen bg-secondary flex flexCol justify-between">
             {getNavbar()}
             {getContent()}
             {getFooter()}
